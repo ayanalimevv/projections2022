@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0B1321;
+  color: #fff;
+}
+
+#events .main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#events .main h1 {
+  color: #8cefe9;
+}
+
+#events .main p {
+  color: #8B95A6;
+}
+
+#events .main div {
+  text-align: center;
+}
+
+#events .carousel-item img {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */

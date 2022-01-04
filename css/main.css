@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0b1321;
+  font-family: "Poppins";
+  overflow-x: hidden;
+}
+
+#main {
+  background: url(../imgs/ea26fd_09f49b12a4884ad6b1916320bb246053_mv2.webp) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  padding: 2rem;
+}
+
+#main .main-div .main-head {
+  color: #8cefe9;
+}
+
+#main .row {
+  margin: 2rem 0;
+}
+
+#main .card {
+  border-radius: 0.8rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 1rem;
+}
+
+#main .card-head {
+  text-align: center;
+  padding: 1rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../imgs/971.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/971.jpg);
+  background-size: cover;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main .card-head img {
+  width: 80px;
+  border: 3px solid white;
+  border-radius: 0.8rem;
+  border-radius: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+#main .head-div {
+  margin-bottom: 2rem;
+}
+
+#main .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main .card-body p {
+  color: #8b95a6;
+}
+
+#main .card-body a {
+  background-color: #8cefe9;
+  padding: 15px 25px;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .col {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
